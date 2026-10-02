@@ -4,7 +4,7 @@ import { getBlendshapeScore } from "../utils/getBleandShapeScore";
 import { classifyExpression } from "../utils/classifyExpression";
 import type { Expression } from "../types/Expression";
 import { MemeResult } from "./MemeResult";
-import { Memes } from "../Data/Memes";
+import { Memes } from "../Data/memes";
 
 export function Camera() {
   const [cameraActive, setCameraActive] = useState(false);
