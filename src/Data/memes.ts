@@ -1,7 +1,7 @@
-import type { Meme } from "../types/meme";
+import type { Meme } from "../types/Meme";
 
 
-export const memes: Record<string, Meme> = {
+export const Memes: Record<string, Meme> = {
   happy: {
     id: "happy",
     title: "Gato Feliz",
